@@ -1,10 +1,14 @@
 def prime(num):
 
-    if (num == 2):
+    if (num == 0 | num == 1):
+
+        return print("Não é primo")
+
+    elif (num == 2):
 
         return print("É primo")
 
-    elif (num % 2 != 0):
+    elif ((num % 2 != 0) & (num % 3 !=0) & (num % 5 !=0) & (num % 7 !=0)):
 
         return print("É primo")
 
@@ -14,4 +18,4 @@ def prime(num):
 
 value = int(input("Insira o numero a ser consultado: "))
 
-print(prime(value))
+prime(value)

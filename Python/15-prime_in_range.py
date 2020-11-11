@@ -1,10 +1,14 @@
 def prime(num):
 
-    if (num == 2):
+    if (num == 0 | num == 1):
+
+        return False
+
+    elif ((num == 2) | (num == 3) | (num == 5) | (num == 7)):
 
         return True
 
-    elif (num % 2 != 0):
+    elif ((num % 2 != 0) & (num % 3 !=0) & (num % 5 !=0) & (num % 7 !=0)):
 
         return True
 
