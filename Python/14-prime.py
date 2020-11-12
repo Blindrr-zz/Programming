@@ -4,7 +4,7 @@ def prime(num):
 
         return print("Não é primo")
 
-    elif (num == 2):
+    elif ((num == 2) | (num == 3) | (num == 5) | (num == 7)):
 
         return print("É primo")
 
