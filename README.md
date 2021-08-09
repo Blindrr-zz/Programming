@@ -1,2 +1,2 @@
 # Programming
-Some codes activities to learn Python and JS
+Some activities to learn Python and JS
