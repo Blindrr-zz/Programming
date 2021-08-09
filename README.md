@@ -1,2 +1,2 @@
-# Programiz
-My codes, based on Programiz examples
+# Programming
+Some codes activities to learn Python and JS
